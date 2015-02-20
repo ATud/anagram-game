@@ -1,0 +1,1 @@
+set PATH=%PATH%;%~dp0nodejs\;%~dp0phantomjs\ && npm install connect serve-static&& phantomjs phantomjs/phantom-qunit.js phantomjs/qunitTest.html && node server.js

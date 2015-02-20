@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Game Test</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+    <body>
+        <section>
+            <label for="inputWord">Please enter the initial Word (this can be disabled and entered any word): </label>
+            <input id="inputWord" name="inputWord" type="text" placeholder="Enter initial word" value="areallylongword" disabled="true" />
+
+            <label for="inputAnagram">Please enter the anagram word: </label>
+            <input id="inputAnagram" name="inputAnagram" type="text" placeholder="Enter anagram"/>
+            <input id="submitAnagram" type="button" value="Check your word" />
+
+            <div id="result">
+                Top 10 scorers
+            </div>
+            <ul id="result-list">
+            </ul>
+        </section>
+
+    <script type="text/javascript" src="js/anagram.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    </body>
+</html>

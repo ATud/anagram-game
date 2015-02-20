@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="//code.jquery.com/qunit/qunit-1.15.0.css">
+</head>
+<body>
+  <div id="qunit">
+  </div>
+  <div id="qunit-fixture">
+    <input id="inputWord" name="inputWord" type="text" placeholder="Enter initial word" value="areallylongword" disabled="true" />
+    <input id="inputAnagram" name="inputAnagram" type="text" placeholder="Enter anagram"/>
+    <input id="submitAnagram" type="button" value="Check your word" />
+    <ul id="result-list"></ul>
+  </div>
+  <script src="./vendor/qunit.js"></script>
+  <script src="./vendor/jquery-1.11.1.min.js"></script>
+  <script src="qTest.js"></script>
+  <script type="text/javascript" src="../js/anagram.js"></script>
+  <script type="text/javascript" src="../js/init.js"></script>
+</body>
+</html>
